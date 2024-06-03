@@ -1,0 +1,1 @@
+https://github.com/valor-software/ng2-charts
