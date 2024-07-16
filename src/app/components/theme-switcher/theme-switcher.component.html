@@ -1,0 +1,7 @@
+<div (click)="changeThemeState()" class="theme-switcher">
+    <img src="assets/dark-mode-icon.svg" alt="" srcset="">
+    <div class="switch-toggle">
+        <span [class]="themeState ? 'switch-to-light':'switch-to-dark'" class="toggler"></span>
+    </div>
+    <img src="assets/light-mode.svg" alt="" srcset="">
+</div>
