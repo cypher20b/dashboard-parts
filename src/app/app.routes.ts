@@ -7,8 +7,8 @@ import { LoadingSpinnersComponent } from './components/loading-spinners/loading-
 
 export const routes: Routes = [
     {path:'', component:SidenavComponent,
-        children:[
-            {path:'', component:ChartsComponent}  
-        ]
+        // children:[
+        //     {path:'', component:ChartsComponent}  
+        // ]
     }
 ];

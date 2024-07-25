@@ -42,6 +42,8 @@ export class CarouselComponent implements OnInit{
 
   updateCurrentItem(){
     this.currentItem = this.carouselList.getCurrent();
+    console.log(this.carouselList);
+    
   }
 
   nextItem(){
